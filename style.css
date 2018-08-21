@@ -58,14 +58,14 @@ li{
     font-weight: bold;
 }
 .top_nav nav{
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 330px;
 }
 .top_nav a{
     justify-content: flex-end;
     color: snow;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     padding: 0px 10px;
     font-weight: bold;
 }
