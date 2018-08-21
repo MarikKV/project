@@ -5,31 +5,46 @@
     padding: 6px 24px;
     cursor: pointer;
 }
-
 .regButton:hover {
     background: #ccc;
 }
 .close{
-    margin: 8px 0px 0px 325px;
+    margin: 10px 0px 0px 385px;
 }
 .close:hover{
     cursor: pointer;
 }
 #window {
-    width: 350px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     margin: 40px auto;
-    background: #fff;
-    border: 1px solid #fff;
-    border-radius: 15px;
+    background: #089da5;
+    opacity: 0.8;
+    border-radius: 10px;
     z-index: 150; display: none;
-    position: fixed; left: 0;right: 0;top:0;bottom: 0;
+    position: fixed; left: 0;right: 0;top: 35px;bottom: 0;
 }
 .form{
     width: 275px; margin: -15px auto 20px auto; text-align: center;
 }
 .input{
-    width: 260px;padding: 5px; margin-bottom: 10px;
+    width: 260px;padding: 5px; margin-bottom: 10px; height: 20px;
+}
+.top_input{
+    margin-top: 20px;
+}
+.input_btn{
+    border-radius: 10px;
+    color: snow;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    background: #ffab11;
+}
+.input_btn:hover{
+    cursor: pointer;
+    background: #ffb71e;
 }
 #gray{
     opacity: 0.8; padding: 15px;
@@ -37,3 +52,4 @@
     position: fixed; left: 0;right: 0;top:0;bottom: 0;
     display: none; z-index:100; overflow: auto;
 }
+
