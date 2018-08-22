@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_logo">
+            ОLALA
+        </div>
+
+        <div class="top_nav" id="myTopNav">
+            <nav>
+                <a href="#">ГОЛОВНА</a>
+                <a href="#">УВІЙТИ</a>
+                <a href="#" class="action">НОВИНКИ</a>
+                <a href="#" onclick="show('block')" class="regButton">РЕЄСТРАЦІЯ</a>
+                <a href="#">УВІЙТИ</a>
+                <a href="#" id="" class="icon">&#9776</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="sup_header">
+        <div class="sap_nav " id="myBottomNav">
+            <nav>
+                <a href="#">Places</a>
+                <a href="#">Events</a>
+                <a href="#">For cids</a>
+                <a href="#">Sport</a>
+                <a href="#">Music</a>
+            </nav>
+        </div>
+    </div>
+    <div onclick="show('none')" id="gray"></div>
+    <div id="window">
+        <!-- Картинка крестика -->
+        <img class="close" src="images/close.png" alt=""  onclick="show('none')">
+        <div class="form">
+            <form action="/register" method="post" name="registerForm">
+                <input type="text" placeholder="Name" name="username" class="input top_input">
+                <input type="text" placeholder="Email" name="email" class="input">
+                <input type="text" placeholder="Password" name="password" class="input">
+                <input type="submit" value="Registration" name="sab" class="input input_btn">
+            </form>
+        </div>
+    </div>
+
+    <div class="blok_menu hidden">
+
+    </div>
+
+    <div id="carousel" class="carousel">
+        <button class="arrow prev">⇦</button>
+        <div class="gallery">
+            <ul class="images">
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+                <li><img src="images/house1.png"></li>
+                <li><img src="images/house2.png"></li>
+            </ul>
+        </div>
+        <button class="arrow next">⇨</button>
+    </div>
+
+    <script>
+
+
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="carousel.js"></script>
+    <script type="text/javascript" src="form.js"></script>
+</body>
+</html>
